@@ -1,3 +1,5 @@
+import React from 'react';
+
 const benefits = [
     { title: "Free Shipping", desc: "On all orders over $50", icon: "🚚" },
     { title: "Secure Payments", desc: "100% safe and secure", icon: "🔒" },

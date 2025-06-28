@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Newsletter() {
     return (
       <section className="bg-black text-white py-16 px-6 text-center">

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { fetchFeaturedProducts } from "../services/productService";
 
 const categoryImages = {

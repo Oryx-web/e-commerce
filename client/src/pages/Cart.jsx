@@ -1,7 +1,6 @@
 import React from "react";
 import { useCart } from "../context/cartContext";
 import { createCheckoutSession } from "../services/checkoutService";
-import { loadStripe } from '@stripe/stripe-js';
 
 export default function Cart() {
   const { cart, dispatch } = useCart();
